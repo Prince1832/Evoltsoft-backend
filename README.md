@@ -3,16 +3,16 @@ This is the backend API for an Electric Vehicle (EV) Charging Station management
 
 It’s built using **Node.js**, **Express**, and **MongoDB**, and provides a set of APIs to handle authentication and charging station management.
 
----
+
 
 ## How to Run This Project Locally
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/Prince1832/Evoltsoft-backend.git
+
+git clone `https://github.com/Prince1832/Evoltsoft-backend.git`
 cd Evoltsoft-backend
-```
+
 
 ### 2. Install dependencies
 npm install
@@ -20,7 +20,7 @@ npm install
 
 ### 3. Setup environment variables
 
-Create a `.env` file in the root folder and add the following:
+Created a `.env` file in the root folder and add the following:
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -33,7 +33,12 @@ You can use [MongoDB Atlas](https://www.mongodb.com/atlas/database) to host your
 
 npm run dev
 
-Your backend will start on `http://localhost:5000`
+## API Documentation with Swagger
+We have integrated Swagger UI to help you explore, test, and understand the API visually.
+
+Visit: `https://evoltsoft-backend-oz6h.onrender.com/api-docs`
+
+My backend is deployed at: `https://evoltsoft-backend-oz6h.onrender.com`
 
 
 
@@ -80,6 +85,7 @@ Postman collection and Swagger docs will be shared soon to help you test the API
 - JWT for authentication
 - bcrypt for password hashing
 - dotenv for managing environment variables
+- Swagger (OpenAPI) for API docs
 
 ---
 
